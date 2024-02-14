@@ -88,8 +88,10 @@ const App: React.FC = () => {
           70.041 * Math.log10(parsedHeightFeet * 12 + parsedHeightInch) +
           36.76;
 
-    setBodyFatPercentage(calculatedPercentage);
-    setBodyFat((calculatedPercentage / 100) * parsedWeight);
+    setBodyFatPercentage(parseFloat(calculatedPercentage.toFixed(2)));
+    setBodyFat(
+      parseFloat(((calculatedPercentage / 100) * parsedWeight).toFixed(2))
+    );
     // setBodyMuscle((1 - calculatedPercentage / 100) * parsedWeight);
   };
 
