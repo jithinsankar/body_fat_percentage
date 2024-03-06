@@ -100,7 +100,7 @@ const App: React.FC = () => {
     event.preventDefault();
 
     // Redirect to Twitter
-    window.location.href = "https://twitter.com/jithin_sank4r";
+    window.location.href = "https://twitter.com/jithins4nkar";
 
     // You can also specify a specific Twitter page:
     // window.location.href = 'https://twitter.com/your_username';
@@ -186,7 +186,7 @@ const App: React.FC = () => {
                         Twitter
                       </div>
                       <div className="line-clamp-2 text-sm leading-snug text-gray-500 dark:text-gray-400">
-                        @jithin_sank4r
+                        @jithins4nkar
                       </div>
                     </a>
                     <a
@@ -249,7 +249,7 @@ const App: React.FC = () => {
                         Twitter
                       </div>
                       <div className="line-clamp-2 text-sm leading-snug text-gray-500 dark:text-gray-400">
-                        @jithin_sank4r
+                        @jithins4nkar
                       </div>
                     </a>
                   </NavigationMenuLink>
